@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jcstest.c
+stdio.h
+-
+jpeglib.h
+-
+jerror.h
+-
+setjmp.h
+-
+
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpeglib.h
+jconfig.h
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+jmorecfg.h
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+jpegint.h
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+jerror.h
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+
+jconfig.h
+

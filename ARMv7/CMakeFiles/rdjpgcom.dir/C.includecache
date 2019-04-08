@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jinclude.h
+jconfig.h
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+stddef.h
+-
+stdlib.h
+-
+sys/types.h
+-
+stdio.h
+-
+strings.h
+-
+string.h
+-
+
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/rdjpgcom.c
+jinclude.h
+/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jinclude.h
+locale.h
+-
+ctype.h
+-
+fcntl.h
+-
+io.h
+-
+SIOUX.h
+-
+console.h
+-
+console.h
+-
+
+jconfig.h
+

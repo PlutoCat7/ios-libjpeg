@@ -1,0 +1,54 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: -mfloat-abi=softfp;-arch;armv7;-miphoneos-version-min=6.0
+Id flags:  
+
+The output was:
+1
+ld: warning: ignoring file /usr/lib/libSystem.dylib, missing required architecture armv7 in file /usr/lib/libSystem.dylib (2 slices)
+ld: dynamic main executables must link with libSystem.dylib for architecture armv7
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+Target: x86_64-apple-darwin18.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+clang: error: argument to '-V' is missing (expected 1 value)
+clang: error: no input files
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+Target: x86_64-apple-darwin18.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+clang: error: argument to '-V' is missing (expected 1 value)
+clang: error: no input files
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+clang: error: unknown argument: '-qversion'
+clang: error: no input files
+Checking whether the ASM compiler is MSVC using "/?" did not match "Microsoft":
+clang: error: no such file or directory: '/?'
+clang: error: no input files
+Checking whether the ASM compiler is TI using "-h" did not match "Texas Instruments":
+clang: error: unknown argument: '-h'
+clang: error: no input files
+Checking whether the ASM compiler is IAR using "" did not match "IAR Assembler":
+clang: error: no input files
+Checking whether the ASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)":
+clang: error: no input files
+Checking whether the ASM compiler is NASM using "-v" did not match "(NASM version)":
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+Target: x86_64-apple-darwin18.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Checking whether the ASM compiler is YASM using "--version" did not match "(yasm)":
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+Target: x86_64-apple-darwin18.0.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+Checking whether the ASM compiler is ADSP using "-version" did not match "Analog Devices":
+clang: error: unknown argument: '-version'
+clang: error: no input files
