@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/./tjutil.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/./tjutil.h
 stdio.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/./turbojpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/./turbojpeg.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cderror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cderror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cdjpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cdjpeg.h
 jinclude.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jinclude.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jinclude.h
 jpeglib.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpeglib.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpeglib.h
 jerror.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 cderror.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cderror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cderror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jinclude.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jinclude.h
 jconfig.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfig.h
 stddef.h
 -
 stdlib.h
@@ -42,21 +42,21 @@ strings.h
 string.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpeglib.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpeglib.h
 jconfig.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfig.h
 jmorecfg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
 jpegint.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
 jerror.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/tjbench.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/tjbench.c
 stdio.h
 -
 stdlib.h
@@ -72,11 +72,11 @@ errno.h
 cdjpeg.h
 -
 ./tjutil.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/./tjutil.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/./tjutil.h
 ./turbojpeg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/./turbojpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/./turbojpeg.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/tjutil.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/tjutil.c
 windows.h
 -
 stdlib.h

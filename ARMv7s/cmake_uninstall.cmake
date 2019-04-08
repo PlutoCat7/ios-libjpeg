@@ -1,17 +1,17 @@
 # This code is from the CMake FAQ
 
-if (NOT EXISTS "/Users/xiaofeng/ios-libjpeg/ARMv7s/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"/Users/xiaofeng/ios-libjpeg/ARMv7s/install_manifest.txt\"")
-endif(NOT EXISTS "/Users/xiaofeng/ios-libjpeg/ARMv7s/install_manifest.txt")
+if (NOT EXISTS "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7s/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"/Users/chenjie/Documents/git/ios-libjpeg/ARMv7s/install_manifest.txt\"")
+endif(NOT EXISTS "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7s/install_manifest.txt")
 
-file(READ "/Users/xiaofeng/ios-libjpeg/ARMv7s/install_manifest.txt" files)
+file(READ "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7s/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 list(REVERSE files)
 foreach (file ${files})
   message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")
     if (EXISTS "$ENV{DESTDIR}${file}")
       execute_process(
-        COMMAND "/Applications/CMake.app/Contents/bin/cmake" -E remove "$ENV{DESTDIR}${file}"
+        COMMAND "/usr/local/Cellar/cmake/3.14.1/bin/cmake" -E remove "$ENV{DESTDIR}${file}"
         OUTPUT_VARIABLE rm_out
         RESULT_VARIABLE rm_retval
       )

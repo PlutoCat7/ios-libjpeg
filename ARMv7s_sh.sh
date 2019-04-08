@@ -12,5 +12,5 @@ EOF
 
 cmake -G"Unix Makefiles" -DCMAKE_TOOLCHAIN_FILE=toolchain.cmake \
   -DCMAKE_OSX_SYSROOT=${IOS_SYSROOT[0]} \
-  /Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master
+  /Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo
 make

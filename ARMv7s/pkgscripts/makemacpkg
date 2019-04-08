@@ -50,13 +50,13 @@ usage()
 UNIVERSAL=0
 
 PKGNAME=libjpeg-turbo
-VERSION=2.0.1
-BUILD=20181026
-SRCDIR=/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master
-BUILDDIR32=/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/osxx86
-BUILDDIRARMV7=/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/iosarmv7
-BUILDDIRARMV7S=/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/iosarmv7s
-BUILDDIRARMV8=/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/iosarmv8
+VERSION=2.0.2
+BUILD=20190408
+SRCDIR=/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo
+BUILDDIR32=/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/osxx86
+BUILDDIRARMV7=/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/iosarmv7
+BUILDDIRARMV7S=/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/iosarmv7s
+BUILDDIRARMV8=/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/iosarmv8
 WITH_JAVA=0
 LIPO=lipo
 

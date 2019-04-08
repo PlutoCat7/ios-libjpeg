@@ -1,4 +1,4 @@
-# Install script for directory: /Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/simd
+# Install script for directory: /Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/simd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

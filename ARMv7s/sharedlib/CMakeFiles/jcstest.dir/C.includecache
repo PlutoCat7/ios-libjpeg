@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jcstest.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jcstest.c
 stdio.h
 -
 jpeglib.h
@@ -16,21 +16,21 @@ jerror.h
 setjmp.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpeglib.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpeglib.h
 jconfig.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfig.h
 jmorecfg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
 jpegint.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
 jerror.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 
 jconfig.h
 

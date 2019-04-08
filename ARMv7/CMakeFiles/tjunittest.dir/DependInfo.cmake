@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/md5.c" "/Users/xiaofeng/ios-libjpeg/ARMv7/CMakeFiles/tjunittest.dir/md5/md5.c.o"
-  "/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/md5hl.c" "/Users/xiaofeng/ios-libjpeg/ARMv7/CMakeFiles/tjunittest.dir/md5/md5hl.c.o"
-  "/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/tjunittest.c" "/Users/xiaofeng/ios-libjpeg/ARMv7/CMakeFiles/tjunittest.dir/tjunittest.c.o"
-  "/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/tjutil.c" "/Users/xiaofeng/ios-libjpeg/ARMv7/CMakeFiles/tjunittest.dir/tjutil.c.o"
+  "/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/md5.c" "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7/CMakeFiles/tjunittest.dir/md5/md5.c.o"
+  "/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/md5hl.c" "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7/CMakeFiles/tjunittest.dir/md5/md5hl.c.o"
+  "/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/tjunittest.c" "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7/CMakeFiles/tjunittest.dir/tjunittest.c.o"
+  "/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/tjutil.c" "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7/CMakeFiles/tjunittest.dir/tjutil.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
-  "/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master"
+  "/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/xiaofeng/ios-libjpeg/ARMv7/CMakeFiles/turbojpeg.dir/DependInfo.cmake"
+  "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7/CMakeFiles/turbojpeg.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

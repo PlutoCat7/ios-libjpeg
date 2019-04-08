@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cderror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cderror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cdjpeg.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cdjpeg.c
 cdjpeg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cdjpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cdjpeg.h
 ctype.h
 -
 fcntl.h
@@ -18,21 +18,21 @@ fcntl.h
 io.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cdjpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cdjpeg.h
 jinclude.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jinclude.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jinclude.h
 jpeglib.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpeglib.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpeglib.h
 jerror.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 cderror.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cderror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cderror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jinclude.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jinclude.h
 jconfig.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfig.h
 stddef.h
 -
 stdlib.h
@@ -46,31 +46,31 @@ strings.h
 string.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegcomp.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegcomp.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpeglib.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpeglib.h
 jconfig.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfig.h
 jmorecfg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
 jpegint.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
 jerror.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegtran.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegtran.c
 cdjpeg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cdjpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cdjpeg.h
 transupp.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/transupp.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/transupp.h
 jversion.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jversion.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jversion.h
 jconfigint.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfigint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfigint.h
 SIOUX.h
 -
 console.h
@@ -78,27 +78,27 @@ console.h
 console.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jversion.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jversion.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/rdswitch.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/rdswitch.c
 cdjpeg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cdjpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cdjpeg.h
 ctype.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/transupp.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/transupp.c
 jinclude.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jinclude.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jinclude.h
 jpeglib.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpeglib.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpeglib.h
 transupp.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/transupp.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/transupp.h
 jpegcomp.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegcomp.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegcomp.h
 ctype.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/transupp.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/transupp.h
 
 jconfig.h
 

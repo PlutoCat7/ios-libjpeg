@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cmyk.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cmyk.h
 jinclude.h
 -
 jpeglib.h
 -
 jconfigint.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfigint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfigint.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jinclude.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jinclude.h
 jconfig.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfig.h
 stddef.h
 -
 stdlib.h
@@ -32,39 +32,39 @@ strings.h
 string.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpeglib.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpeglib.h
 jconfig.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jconfig.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfig.h
 jmorecfg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
 jpegint.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
 jerror.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/./md5.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/./md5.h
 sys/types.h
 -
 machine/endian.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/md5.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/md5.c
 string.h
 -
 md5.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/md5.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/md5.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/md5.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/md5.h
 sys/types.h
 -
 machine/endian.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/md5hl.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/md5hl.c
 sys/types.h
 -
 sys/stat.h
@@ -82,9 +82,9 @@ stdio.h
 stdlib.h
 -
 ./md5.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/./md5.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/./md5.h
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/tjunittest.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/tjunittest.c
 stdio.h
 -
 stdlib.h
@@ -94,19 +94,19 @@ string.h
 errno.h
 -
 tjutil.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/tjutil.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/tjutil.h
 turbojpeg.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/turbojpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/turbojpeg.h
 md5/md5.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5/md5.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5/md5.h
 cmyk.h
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/cmyk.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/cmyk.h
 time.h
 -
 unistd.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/tjutil.c
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/tjutil.c
 windows.h
 -
 stdlib.h
@@ -114,11 +114,11 @@ stdlib.h
 sys/time.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/tjutil.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/tjutil.h
 stdio.h
 -
 
-/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/turbojpeg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/turbojpeg.h
 
 jconfig.h
 

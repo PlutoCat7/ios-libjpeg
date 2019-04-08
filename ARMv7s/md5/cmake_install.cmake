@@ -1,4 +1,4 @@
-# Install script for directory: /Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/md5
+# Install script for directory: /Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/md5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,0 +1,411 @@
+The target system is: Darwin -  - aarch64
+The host system is: Darwin - 18.2.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
+Build flags: -Wall;-arch;arm64;-miphoneos-version-min=7.0;-funwind-tables
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is AppleClang, found in "/Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/3.14.1/CompilerIdC/CMakeCCompilerId.o"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b793/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3b793.dir/build.make CMakeFiles/cmTC_3b793.dir/build
+Building C object CMakeFiles/cmTC_3b793.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_3b793.dir/testCCompiler.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3b793
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b793.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3b793.dir/testCCompiler.c.o  -o cmTC_3b793 
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eaadb/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_eaadb.dir/build.make CMakeFiles/cmTC_eaadb.dir/build
+Building C object CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -v -Wl,-v -o CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.14.1/share/cmake/Modules/CMakeCCompilerABI.c
+Apple LLVM version 10.0.1 (clang-1001.0.46.3)
+Target: aarch64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios7.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -faligned-alloc-unavailable -target-cpu cyclone -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wall -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=ios-7.0.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.14.1/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 (clang-1001.0.46.3) default target x86_64-apple-darwin18.2.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+Linking C executable cmTC_eaadb
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaadb.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o  -o cmTC_eaadb 
+Apple LLVM version 10.0.1 (clang-1001.0.46.3)
+Target: aarch64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -iphoneos_version_min 7.0.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o cmTC_eaadb -headerpad_max_install_names -v CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a
+@(#)PROGRAM:ld  PROJECT:ld64-450.3
+BUILD 18:01:43 Mar 13 2019
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+Library search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+    add: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  end of search list found
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  collapse include dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_eaadb/fast ]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_eaadb.dir/build.make CMakeFiles/cmTC_eaadb.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -v -Wl,-v -o CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.14.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.3)]
+  ignore line: [Target: aarch64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  ignore line: [clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-ios7.0.0 -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mthread-model posix -mdisable-fp-elim -fno-strict-return -masm-verbose -munwind-tables -faligned-alloc-unavailable -target-cpu cyclone -target-feature +fp-armv8 -target-feature +neon -target-feature +crypto -target-feature +zcm -target-feature +zcz -target-abi darwinpcs -fallow-half-arguments-and-returns -dwarf-column-info -debugger-tuning=lldb -target-linker-version 450.3 -v -coverage-notes-file /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.gcno -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wall -Wno-atomic-implicit-seq-cst -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-quoted-include-in-framework-header -fdebug-compilation-dir /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fobjc-runtime=ios-7.0.0 -fmax-type-align=16 -fdiagnostics-show-option -o CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.14.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 (clang-1001.0.46.3) default target x86_64-apple-darwin18.2.0]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include]
+  ignore line: [ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks (framework directory)]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_eaadb]
+  ignore line: [/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eaadb.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o  -o cmTC_eaadb ]
+  ignore line: [Apple LLVM version 10.0.1 (clang-1001.0.46.3)]
+  ignore line: [Target: aarch64-apple-darwin18.2.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -iphoneos_version_min 7.0.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -o cmTC_eaadb -headerpad_max_install_names -v CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [arm64] ==> ignore
+    arg [-iphoneos_version_min] ==> ignore
+    arg [7.0.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_eaadb] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_eaadb.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/lib/darwin/libclang_rt.ios.a]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_751fa/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_751fa.dir/build.make CMakeFiles/cmTC_751fa.dir/build
+Building C object CMakeFiles/cmTC_751fa.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -std=c11 -o CMakeFiles/cmTC_751fa.dir/feature_tests.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_751fa
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_751fa.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_751fa.dir/feature_tests.c.o  -o cmTC_751fa 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d0c8/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0d0c8.dir/build.make CMakeFiles/cmTC_0d0c8.dir/build
+Building C object CMakeFiles/cmTC_0d0c8.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -std=c99 -o CMakeFiles/cmTC_0d0c8.dir/feature_tests.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0d0c8
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d0c8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0d0c8.dir/feature_tests.c.o  -o cmTC_0d0c8 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ee4ca/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ee4ca.dir/build.make CMakeFiles/cmTC_ee4ca.dir/build
+Building C object CMakeFiles/cmTC_ee4ca.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -std=c90 -o CMakeFiles/cmTC_ee4ca.dir/feature_tests.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ee4ca
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee4ca.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ee4ca.dir/feature_tests.c.o  -o cmTC_ee4ca 
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dbcb7/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dbcb7.dir/build.make CMakeFiles/cmTC_dbcb7.dir/build
+Building C object CMakeFiles/cmTC_dbcb7.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_dbcb7.dir/CheckIncludeFile.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dbcb7
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbcb7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dbcb7.dir/CheckIncludeFile.c.o  -o cmTC_dbcb7 
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77e42/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_77e42.dir/build.make CMakeFiles/cmTC_77e42.dir/build
+Building C object CMakeFiles/cmTC_77e42.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_77e42.dir/CheckIncludeFile.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_77e42
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77e42.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_77e42.dir/CheckIncludeFile.c.o  -o cmTC_77e42 
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a831e/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a831e.dir/build.make CMakeFiles/cmTC_a831e.dir/build
+Building C object CMakeFiles/cmTC_a831e.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_a831e.dir/CheckIncludeFile.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a831e
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a831e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a831e.dir/CheckIncludeFile.c.o  -o cmTC_a831e 
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_016f7/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_016f7.dir/build.make CMakeFiles/cmTC_016f7.dir/build
+Building C object CMakeFiles/cmTC_016f7.dir/SIZE_T.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_016f7.dir/SIZE_T.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CheckTypeSize/SIZE_T.c
+Linking C executable cmTC_016f7
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_016f7.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_016f7.dir/SIZE_T.c.o  -o cmTC_016f7 
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5d3f5/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_5d3f5.dir/build.make CMakeFiles/cmTC_5d3f5.dir/build
+Building C object CMakeFiles/cmTC_5d3f5.dir/UNSIGNED_LONG.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_5d3f5.dir/UNSIGNED_LONG.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CheckTypeSize/UNSIGNED_LONG.c
+Linking C executable cmTC_5d3f5
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d3f5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5d3f5.dir/UNSIGNED_LONG.c.o  -o cmTC_5d3f5 
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6a263/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6a263.dir/build.make CMakeFiles/cmTC_6a263.dir/build
+Building C object CMakeFiles/cmTC_6a263.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables -DHAVE_BUILTIN_CTZL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_6a263.dir/src.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6a263
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a263.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables -DHAVE_BUILTIN_CTZL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6a263.dir/src.c.o  -o cmTC_6a263 
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c8a12/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c8a12.dir/build.make CMakeFiles/cmTC_c8a12.dir/build
+Building C object CMakeFiles/cmTC_c8a12.dir/HAVE_LOCALE_H.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_c8a12.dir/HAVE_LOCALE_H.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_c8a12
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8a12.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c8a12.dir/HAVE_LOCALE_H.c.o  -o cmTC_c8a12 
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5c74/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e5c74.dir/build.make CMakeFiles/cmTC_e5c74.dir/build
+Building C object CMakeFiles/cmTC_e5c74.dir/HAVE_STDLIB_H.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_e5c74.dir/HAVE_STDLIB_H.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_e5c74
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5c74.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e5c74.dir/HAVE_STDLIB_H.c.o  -o cmTC_e5c74 
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_eda74/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_eda74.dir/build.make CMakeFiles/cmTC_eda74.dir/build
+Building C object CMakeFiles/cmTC_eda74.dir/NEED_SYS_TYPES_H.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_eda74.dir/NEED_SYS_TYPES_H.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_eda74
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eda74.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_eda74.dir/NEED_SYS_TYPES_H.c.o  -o cmTC_eda74 
+
+
+Determining if the memset exist passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43119/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_43119.dir/build.make CMakeFiles/cmTC_43119.dir/build
+Building C object CMakeFiles/cmTC_43119.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_43119.dir/CheckSymbolExists.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_43119
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43119.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_43119.dir/CheckSymbolExists.c.o  -o cmTC_43119 
+
+File /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memset
+  return ((int*)(&memset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the memcpy exist passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f101/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6f101.dir/build.make CMakeFiles/cmTC_6f101.dir/build
+Building C object CMakeFiles/cmTC_6f101.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_6f101.dir/CheckSymbolExists.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6f101
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f101.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6f101.dir/CheckSymbolExists.c.o  -o cmTC_6f101 
+
+File /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memcpy
+  return ((int*)(&memcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of unsigned char passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c8602/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c8602.dir/build.make CMakeFiles/cmTC_c8602.dir/build
+Building C object CMakeFiles/cmTC_c8602.dir/UNSIGNED_CHAR.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_c8602.dir/UNSIGNED_CHAR.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CheckTypeSize/UNSIGNED_CHAR.c
+Linking C executable cmTC_c8602
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8602.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c8602.dir/UNSIGNED_CHAR.c.o  -o cmTC_c8602 
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc5ac/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_dc5ac.dir/build.make CMakeFiles/cmTC_dc5ac.dir/build
+Building C object CMakeFiles/cmTC_dc5ac.dir/UNSIGNED_SHORT.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_dc5ac.dir/UNSIGNED_SHORT.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CheckTypeSize/UNSIGNED_SHORT.c
+Linking C executable cmTC_dc5ac
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc5ac.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dc5ac.dir/UNSIGNED_SHORT.c.o  -o cmTC_dc5ac 
+
+
+Performing C SOURCE FILE Test INCOMPLETE_TYPES succeeded with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_16d05/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_16d05.dir/build.make CMakeFiles/cmTC_16d05.dir/build
+Building C object CMakeFiles/cmTC_16d05.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables -DINCOMPLETE_TYPES -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_16d05.dir/src.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_16d05
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d05.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables -DINCOMPLETE_TYPES -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_16d05.dir/src.c.o  -o cmTC_16d05 
+
+Source file was:
+int main(void) { typedef struct undefined_structure *undef_struct_ptr;  undef_struct_ptr ptr = 0;  return ptr != 0; }
+Performing C SOURCE FILE Test INLINE_WORKS succeeded with the following output:
+Change Dir: /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cd586/fast 
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_cd586.dir/build.make CMakeFiles/cmTC_cd586.dir/build
+Building C object CMakeFiles/cmTC_cd586.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang   -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables -DINLINE_WORKS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk   -o CMakeFiles/cmTC_cd586.dir/src.c.o   -c /Users/chenjie/Documents/git/ios-libjpeg/ARM64/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cd586
+/usr/local/Cellar/cmake/3.14.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd586.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Wall -arch arm64 -miphoneos-version-min=7.0 -funwind-tables -DINLINE_WORKS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cd586.dir/src.c.o  -o cmTC_cd586 
+
+Source file was:
+__inline__ __attribute__((always_inline)) static int foo(void) { return 0; } int main(void) { return foo(); }
+Checking whether the ASM compiler is AppleClang using "--version" matched "(Apple LLVM version)":
+Apple LLVM version 10.0.1 (clang-1001.0.46.3)
+Target: x86_64-apple-darwin18.2.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin

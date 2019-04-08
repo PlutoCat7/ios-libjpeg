@@ -20,9 +20,9 @@ runme()
 }
 
 IMAGES="vgl_5674_0098.bmp vgl_6434_0018a.bmp vgl_6548_0026a.bmp nightshot_iso_100.bmp"
-IMGDIR=/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/testimages
+IMGDIR=/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/testimages
 OUTDIR=`mktemp -d /tmp/__tjexampletest_output.XXXXXX`
-EXEDIR=/Users/xiaofeng/ios-libjpeg/ARMv7s
+EXEDIR=/Users/chenjie/Documents/git/ios-libjpeg/ARMv7s
 
 if [ -d $OUTDIR ]; then
 	rm -rf $OUTDIR

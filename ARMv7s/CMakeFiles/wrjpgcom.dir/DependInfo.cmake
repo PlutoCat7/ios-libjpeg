@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master/wrjpgcom.c" "/Users/xiaofeng/ios-libjpeg/ARMv7s/CMakeFiles/wrjpgcom.dir/wrjpgcom.c.o"
+  "/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/wrjpgcom.c" "/Users/chenjie/Documents/git/ios-libjpeg/ARMv7s/CMakeFiles/wrjpgcom.dir/wrjpgcom.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
-  "/Users/xiaofeng/ios-libjpeg/libjpeg-turbo-master"
+  "/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo"
   )
 
 # Targets to which this target links.
