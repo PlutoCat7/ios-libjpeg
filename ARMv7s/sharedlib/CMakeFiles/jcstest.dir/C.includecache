@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jcstest.c
+stdio.h
+-
+jpeglib.h
+-
+jerror.h
+-
+setjmp.h
+-
+
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
+
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
+
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
+
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpeglib.h
+jconfig.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jconfig.h
+jmorecfg.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jmorecfg.h
+jpegint.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jpegint.h
+jerror.h
+/Users/chenjie/Documents/git/ios-libjpeg/libjpeg-turbo/jerror.h
+
+jconfig.h
+
